@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "scripts": {
+    "build:baremetal": "node baremetal/build.mjs",
+    "build:baremetal:boottest": "node baremetal/build.mjs --core=boottest",
+    "build:baremetal:boottest-fceumm": "node baremetal/build.mjs --core=boottest-fceumm",
+    "build:baremetal:nes": "node baremetal/build.mjs --core=fceumm --rom=GAME.NES",
+    "build:baremetal:n64": "node baremetal/build.mjs --core=n64 --rom=GAME.Z64",
+    "build:baremetal:multi": "node baremetal/build.mjs --core=multi",
+    "clean:baremetal": "node -e \"fs.rmSync('baremetal/build-node',{recursive:true,force:true})\""
+  }
+}

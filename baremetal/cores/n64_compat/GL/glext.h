@@ -1,0 +1,4 @@
+#ifndef RA_BAREMETAL_N64_GLEXT_H
+#define RA_BAREMETAL_N64_GLEXT_H
+
+#endif
