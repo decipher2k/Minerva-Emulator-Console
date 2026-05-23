@@ -7,7 +7,12 @@
   <img src="assets/screen.png"><br/><br/>
 </p>
 
+#MINERVA Emulator Console
+The MINERVA Emulator Console is a Circle Bare Metal port of RetroArch for ARM.<br>
+This allows ultra fast booting to the rom selection without having to boot an operating system first.<br><br>
 
+
+#RetroArch Readme
 # About
 
 After long time of work I present to you this UWP release of RetroArch for Windows (ARM32) devices
